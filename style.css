@@ -10,6 +10,7 @@ body {
     background-color: #161616;
     border-radius: 15px;
     margin: auto;
+    margin-bottom: 130px;
 
 }
 .banner-item {
@@ -19,6 +20,7 @@ body {
 }
 .banner-split{
     margin-left: 131px;
+   
 }
 
 .banner-title {
@@ -56,4 +58,28 @@ body {
 .banner-image {
     height: 645px;
     
+}
+
+/* ----------------...>>>   All Match  <<<<    ------------ */
+.All-Match {
+    width: 1321px;
+    display: grid;
+    grid-template-columns: 312px 1fr;
+    column-gap: 15px;
+
+    margin: auto;
+}
+.Match-split {
+    background-color: antiquewhite;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.Match-button {
+    display: block;
+    width: 252px;
+    height: 64px;
+    border-radius: 6px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 5px;
 }
