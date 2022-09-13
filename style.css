@@ -49,6 +49,7 @@ body {
     width: 197px;
     height: 60px;
     position: relative;
+    cursor: pointer;
     transition: 0.2s;
     background-color: forestgreen;
 }
