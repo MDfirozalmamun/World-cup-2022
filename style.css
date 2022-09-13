@@ -9,7 +9,6 @@ body {
     height: 646px;
     background-color: #161616;
     border-radius: 15px;
-
     margin: auto;
 
 }
@@ -23,14 +22,15 @@ body {
 }
 
 .banner-title {
-    font-weight: 600;
-     font-size: 60px;
+    font-size: 50px;
+    font-weight: 200;
      color: white;
     font-family: 'Poppins', sans-serif;
 }
 .banner-sbu-titel {
     font-weight: 400;
     font-size: 16px;
+    margin-top: 0;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -51,4 +51,8 @@ body {
     position: relative;
     transition: 0.2s;
     background-color: forestgreen;
+}
+.banner-image {
+    height: 645px;
+    
 }
