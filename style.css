@@ -1,0 +1,14 @@
+/* -----------------banner section-------------- */
+.banner-sec {
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 15px;
+    
+    margin: auto;
+
+}
+.banner-item {
+    display: flex;
+    
+}
