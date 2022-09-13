@@ -1,14 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 /* -----------------banner section-------------- */
 .banner-sec {
     width: 1321px;
     height: 646px;
     background-color: #161616;
     border-radius: 15px;
-    
+
     margin: auto;
 
 }
 .banner-item {
     display: flex;
     
+    
+}
+.banner-split{
+    margin-left: 131px;
+}
+
+.banner-title {
+    font-weight: 600;
+     font-size: 60px;
+     color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-sbu-titel {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-button {
+    font-weight: 400;
+    font-size: 20px;
+    width: 187px;
+    height: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+
+}
+.banner-button:hover {
+    width: 197px;
+    height: 60px;
+    position: relative;
+    transition: 0.2s;
+    background-color: forestgreen;
 }
