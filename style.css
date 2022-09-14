@@ -178,19 +178,25 @@ body {
 
 .View-All {
     margin-bottom: 70px;
+    display: none;
    
     
 }
 .View {
     width: 131px;
     height: 47px;
-    font-size: 16px;
-    background-color: red;
-    margin: auto;
+   background-color: red;
+   border-radius: 5px;
+   margin: auto;
+}
+.View h1 {
+    font-size: 30px;
     text-align: center;
-    border-radius: 6px;
     color: white;
- 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 8px;
+    
 }
 
 /* -----------------Footer section--------------- */
