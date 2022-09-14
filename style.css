@@ -61,12 +61,11 @@ body {
 }
 
 /* ----------------...>>>   All Match update  <<<<    ------------ */
-.All-Match-and-button{
+ .All-Match-and-button{
     width: 1321px;
     display: grid;
     grid-template-columns: 312px 1fr;
     column-gap: 15px;
-
     margin: auto;
 }
 .Match-split {
@@ -240,6 +239,7 @@ hr {
     
     .banner-sec {
         width: 334px;
+        margin-top: 10px;
        }
     .banner-item {
         display: flex;
@@ -269,4 +269,23 @@ hr {
     .banner-image {
         height: 356px;
     }
-}
+
+    /* ----All Match update --------*/
+    .All-Match-and-button {
+            width: 334px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            background-color: rgb(124, 72, 3);
+            
+        }
+    .All-button {
+        margin: auto;
+        margin-bottom: 24px;
+    }
+    /* ------------Live Match-------- */
+        .All-Live-Match {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        
+        }
+ }
