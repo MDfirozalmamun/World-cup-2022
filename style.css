@@ -231,3 +231,42 @@ hr {
     font-weight: 500;
         font-size: 20px;
 }
+
+/*____________ small/Mobile device____________  */
+
+@media only screen and (max-width:576px) {
+
+    /* ------banner section---- */
+    
+    .banner-sec {
+        width: 334px;
+       }
+    .banner-item {
+        display: flex;
+        flex-direction: column;
+
+       }
+    .banner-split {
+        margin: auto;
+    
+       }
+    .banner-title{
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .banner-sbu-titel{
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }
+    .banner-button {
+        width: 161px;
+        height: 48px;
+        margin-left: 30%;
+    }
+    .banner-image {
+        height: 356px;
+    }
+}
