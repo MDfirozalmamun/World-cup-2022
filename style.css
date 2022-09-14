@@ -61,7 +61,7 @@ body {
 }
 
 /* ----------------...>>>   All Match  <<<<    ------------ */
-.All-Match-button {
+.All-Match-and-button{
     width: 1321px;
     display: grid;
     grid-template-columns: 312px 1fr;
@@ -78,15 +78,30 @@ body {
     width: 312px;
     height: 312px;
     background-color: #161616;
+    border-radius: 10px;
+    position: fixed;
+}
+.buttons {
+    padding-top: 30px;
+    
+    
 }
 .Match-button {
     display: block;
-    width: 252px;
+    width: 250px;
     height: 64px;
     font-weight: 500;
     font-size: 20px;
     border-radius: 6px;
-    background-color: white;  
+    background-color: white;
+    margin-bottom: 30px;
+    margin-left: 30px;
+       
+}
+.Match-button:hover {
+    color: white;
+    background-color: red;
+    width: 254px;
 }
 
 /* --------------------Live-Match----------- */
