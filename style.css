@@ -60,7 +60,7 @@ body {
     
 }
 
-/* ----------------...>>>   All Match  <<<<    ------------ */
+/* ----------------...>>>   All Match update  <<<<    ------------ */
 .All-Match-and-button{
     width: 1321px;
     display: grid;
@@ -106,6 +106,9 @@ body {
 
 /* --------------------Live-Match----------- */
 
+.container-Match {
+    margin-bottom: 130px;
+}
 .All-Live-Match {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -173,12 +176,21 @@ body {
 
 /*----------------- View All-------------- */
 
+.View-All {
+    margin-bottom: 70px;
+   
+    
+}
 .View {
     width: 131px;
     height: 47px;
+    font-size: 16px;
     background-color: red;
-    border-radius: 5px;
+    margin: auto;
     text-align: center;
+    border-radius: 6px;
+    color: white;
+ 
 }
 
 /* -----------------Footer section--------------- */
@@ -186,4 +198,27 @@ body {
 .container-footer {
     width: 100%;
     background-color: #161616;
+}
+.Goal {
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 40px;
+}
+hr {
+    width: 75%;
+}
+.footer-info {
+    color: white;
+    
+    padding-top: 50px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+.info {
+    margin-left: 40px;
+    font-weight: 500;
+        font-size: 20px;
 }
