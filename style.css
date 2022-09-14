@@ -79,7 +79,7 @@ body {
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
-    position: fixed;
+    
 }
 .buttons {
     padding-top: 30px;
@@ -168,4 +168,22 @@ body {
 }
 .Message {
     margin-left: 30px;
+}
+
+
+/*----------------- View All-------------- */
+
+.View {
+    width: 131px;
+    height: 47px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* -----------------Footer section--------------- */
+
+.container-footer {
+    width: 100%;
+    background-color: #161616;
 }
