@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* -----------------banner section-------------- */
+
+.banner-sec {
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 130px;
+
+}
+
+.banner-item {
+    display: flex;
+
+
+}
+
+.banner-split {
+    margin-left: 131px;
+
+}
+
+.banner-title {
+    font-size: 50px;
+    font-weight: 200;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-sbu-titel {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner-button {
+    font-weight: 400;
+    font-size: 20px;
+    width: 187px;
+    height: 56px;
+    color: white;
+    border-radius: 6px;
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.banner-button:hover {
+    width: 197px;
+    height: 60px;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: forestgreen;
+}
+
+.banner-image {
+    height: 645px;
+
+}
+/* ----------------...>>>   All Match update  <<<<    ------------ */
+.All-Match-and-button {
+    width: 1321px;
+    display: grid;
+    grid-template-columns: 312px 1fr;
+    column-gap: 15px;
+    margin: auto;
+}
+
+.Match-split {
+
+
+    border-radius: 10px;
+}
+
+.All-button {
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+    top: -opx;
+}
+
+.buttons {
+    padding-top: 30px;
+
+
+}
+
+.Upcoming-Match {
+
+    width: 250px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.All-Group {
+
+    width: 250px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.Blog {
+
+    width: 250px;
+    height: 64px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: white;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+.Upcoming-Match:hover,
+.All-Group:hover,
+.Blog:hover {
+    color: white;
+    background-color: red;
+    width: 254px;
+}
