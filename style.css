@@ -441,6 +441,10 @@ hr {
    }
         
 /*---------------------- All Match update----------- */
+   .container-Match {
+     margin-bottom: 50px;
+   }
+
 
     .All-Match-and-button{
     
@@ -501,4 +505,31 @@ hr {
     width: 337px;
     
    }
+   /* ---------------View All------- */
+   .View-All {
+    display: block;
+   }
+
+   /* ------------------Footer section--------------- */
+   .container-footer {
+    width: 100%;
+   }
+   .Goal {
+    padding-top: 70px;
+    padding-bottom: 30px;
+   }
+    
+   .footer-info {
+     word-wrap: break-word;
+     padding-top: 30px;
+     padding-bottom: 55px;
+     
+   }
+   .info {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
+    
+   }
+  
  }
