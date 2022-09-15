@@ -291,6 +291,10 @@ hr {
         height: 48px;
         margin-left: 30%;
     }
+    .banner-button:hover {
+        width: 167px;
+        height: 51px;
+    }
     .banner-image {
         height: 356px;
     }
