@@ -1,0 +1,37 @@
+.i {
+    width: 40px;
+    height: 200px;
+    background-color: green;
+    border-radius: 0px 0px 20px 20px;
+    margin: auto;
+}
+.o {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5px;
+}
+.text h1 {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+.text {
+    
+    margin: auto;
+    
+}
+.symble {
+    margin: auto;
+}
+.container {
+    margin: auto;
+    width: 1321px;
+    height: 600px;
+    border: 10px solid cyan;
+    position: relative;
+    top: 100px;
+    border-radius: 0px 0px 10px 10px;
+}

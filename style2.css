@@ -148,6 +148,11 @@ body {
     background-color: red;
     width: 254px;
 }
+.Upcoming-Match a,
+.All-Group a,
+.Blog a {
+    text-decoration: none;
+}
 
 /*---------------- Upcoming-Match---------------- */
 
