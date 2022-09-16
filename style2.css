@@ -393,3 +393,147 @@ hr {
                margin-left: 0px;
            }
 }
+
+
+/*0000000000-------- ipad / Medium  / 576px up---------000000 */
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+
+
+
+    /*$$$$$-------- banner-section-----$$$$ */
+
+    .banner-sec {
+        width: 734px;
+        height: 398px;
+        margin-top: 10px;
+        margin-bottom: 70px;
+
+    }
+
+    .banner-split {
+        margin-left: 10px;
+        margin-left: 40px;
+    }
+
+    .banner-title {
+        font-weight: 500;
+        font-size: 30px;
+    }
+
+    .sub-titel {
+        font-weight: 400;
+        font-size: 10px;
+
+    }
+
+    .banner-button {
+        width: 155px;
+        height: 48px;
+        background-color: red;
+    }
+
+    .banner-button:hover {
+        width: 159px;
+        height: 50px;
+        background-color: green;
+    }
+
+    .banner-image {
+        width: 323px;
+        height: 395px;
+    }
+
+        /*---------------------- All Match update----------- */
+        .container-Match {
+            margin-bottom: 50px;
+        }
+    
+    
+        .All-Match-and-button {
+    
+            display: grid;
+            grid-template-columns: 1fr;
+    
+        }
+    
+        .All-button {
+            height: 100%;
+            width: 100%;
+            background-color: white;
+        }
+    
+        .buttons {
+            display: flex;
+            padding-top: 0px;
+            margin: 1%;
+    
+        }
+    
+        .Upcoming-Match {
+            width: 238px;
+            height: 64px;
+            margin-left: 10px;
+        }
+    
+        .All-Group {
+            width: 238px;
+            height: 64px;
+            margin-left: 10px;
+    
+    
+        }
+    
+        .Blog {
+            width: 238px;
+            height: 64px;
+            margin-left: 10px;
+    
+        }
+    
+        .Upcoming-Match:hover,
+        .All-Group:hover,
+        .Blog:hover {
+            background-color: red;
+            width: 238px;
+            cursor: pointer;
+        }
+
+     /*-------- Upcoming-Match----------- */
+            
+        .All-Live-Match {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: auto;
+            margin-left: 5%;
+            
+         }
+         .All-Match-and-button {
+             width: 100%;
+         }
+    
+         /* ------------------Footer section--------------- */
+         .container-footer {
+             width: 100%;
+         }
+    
+         .Goal {
+             padding-top: 70px;
+             padding-bottom: 30px;
+         }
+    
+         .footer-info {
+             word-wrap: break-word;
+             padding-top: 30px;
+             padding-bottom: 55px;
+    
+         }
+    
+         .info {
+             margin-left: 50px;
+             margin-bottom: 20px;
+    
+    
+         }
+
+}
