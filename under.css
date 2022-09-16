@@ -34,4 +34,24 @@
     position: relative;
     top: 100px;
     border-radius: 0px 0px 10px 10px;
+    background-color: rgb(215, 242, 250);
+}
+
+@media only screen and (max-width:576px) {
+    .container {
+        width: 334px;
+            height: 472px;
+        background-color: rgb(215, 242, 250);
+    }
+    
+}
+
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    .container {
+            width: 734px;
+                height: 398px;
+            background-color: rgb(215, 245, 250);
+        }
+    
 }
