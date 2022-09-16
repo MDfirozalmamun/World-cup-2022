@@ -68,6 +68,10 @@ body {
 
 }
 /* ----------------...>>>   All Match update  <<<<    ------------ */
+
+.container-Match {
+    margin-bottom: 130px;
+}
 .All-Match-and-button {
     width: 1321px;
     display: grid;
@@ -143,4 +147,91 @@ body {
     color: white;
     background-color: red;
     width: 254px;
+}
+
+/*---------------- Upcoming-Match---------------- */
+
+.All-Live-Match {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.Comming-soon-Match {
+    width: 312px;
+        height: 242px;
+        border-radius: 8px;
+        border: 0.2px solid gainsboro;
+}
+.Comming-soon-Match:hover {
+    border: 0.4px solid red;
+}
+.Team-Match-info {
+    margin-top: 53px;
+    margin-left: 30px;
+}
+
+.Team {
+    width: 252px;
+        height: 136.18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.Team-flag {
+    margin: auto;
+}
+.Team-flag img {
+    width: 93.04px;
+        height: 56.18px;
+
+}
+.Team-flag h1 {
+    font-weight: 700;
+        font-size: 16px;
+        margin-left: 21px;
+        margin-right: 21px;
+        text-align: center;
+        
+}
+.Match-ditails {
+    text-align: center;
+    
+}
+
+/* -----------------Footer section--------------- */
+
+.container-footer {
+    width: 100%;
+
+    background-color: #161616;
+}
+
+.Goal {
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+hr {
+    width: 75%;
+}
+
+.footer-info {
+    color: white;
+
+    padding-top: 50px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+.info {
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
 }
